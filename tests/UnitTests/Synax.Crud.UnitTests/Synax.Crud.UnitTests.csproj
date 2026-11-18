@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>preview</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="TUnit" Version="1.69.24" />
+    <PackageReference Include="TUnit.Assertions" Version="1.69.24" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\src\Libraries\Synax.Crud\Synax.Crud.csproj" />
+    <ProjectReference Include="..\..\..\src\Libraries\Synax.EntityFrameworkCore.Mapper\Synax.EntityFrameworkCore.Mapper.csproj" />
+    <ProjectReference Include="..\..\..\src\Libraries\Synax.EntityFrameworkCore.Testing\Synax.EntityFrameworkCore.Testing.csproj" />
+    <ProjectReference Include="..\..\..\src\Libraries\Synax.Mapper\Synax.Mapper.csproj" />
+    <ProjectReference Include="..\..\..\src\Libraries\Synax.Mediator\Synax.Mediator.csproj" />
+    <ProjectReference Include="..\..\..\src\Libraries\Synax.AspNetCore\Synax.AspNetCore.csproj" />
+  </ItemGroup>
+
+</Project>

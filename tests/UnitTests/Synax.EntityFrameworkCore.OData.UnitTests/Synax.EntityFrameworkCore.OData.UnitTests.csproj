@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>preview</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="TUnit" Version="1.69.24" />
+    <PackageReference Include="TUnit.Assertions" Version="1.69.24" />
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\src\Libraries\Synax.EntityFrameworkCore.OData.Results\Synax.EntityFrameworkCore.OData.Results.csproj" />
+    <ProjectReference Include="..\..\..\src\Libraries\Synax.EntityFrameworkCore.OData\Synax.EntityFrameworkCore.OData.csproj" />
+  </ItemGroup>
+
+</Project>

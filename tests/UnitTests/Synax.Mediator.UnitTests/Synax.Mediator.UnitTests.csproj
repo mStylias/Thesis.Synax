@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>preview</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="TUnit" Version="1.69.24" />
+    <PackageReference Include="TUnit.Assertions" Version="1.69.24" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="10.0.12" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\src\Libraries\Synax.Mediator\Synax.Mediator.csproj" />
+    <ProjectReference Include="..\..\..\src\Libraries\Synax.Results\Synax.Results.csproj" />
+  </ItemGroup>
+
+</Project>

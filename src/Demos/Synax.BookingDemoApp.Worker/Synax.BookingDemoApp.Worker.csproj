@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Synax.BookingDemoApp.Application\Synax.BookingDemoApp.Application.csproj" />
+        <ProjectReference Include="..\Synax.BookingDemoApp.Infrastructure\Synax.BookingDemoApp.Infrastructure.csproj" />
+    </ItemGroup>
+
+</Project>

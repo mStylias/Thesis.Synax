@@ -1,0 +1,45 @@
+<Solution>
+  <Folder Name="/Demos/">
+    <Project Path="src/Demos/Synax.BookingDemoApp.Application/Synax.BookingDemoApp.Application.csproj" />
+    <Project Path="src/Demos/Synax.BookingDemoApp.Domain/Synax.BookingDemoApp.Domain.csproj" />
+    <Project Path="src/Demos/Synax.BookingDemoApp.Infrastructure/Synax.BookingDemoApp.Infrastructure.csproj" />
+    <Project Path="src/Demos/Synax.BookingDemoApp.Worker/Synax.BookingDemoApp.Worker.csproj" />
+    <Project Path="src/Demos/Synax.BookingDemoApp/Synax.BookingDemoApp.csproj" />
+  </Folder>
+  <Folder Name="/Libraries/">
+    <Project Path="src/Libraries/Synax.AspNetCore/Synax.AspNetCore.csproj" />
+    <Project Path="src/Libraries/Synax.Crud/Synax.Crud.csproj" />
+    <Project Path="src/Libraries/Synax.EntityFrameworkCore.AspNetCore/Synax.EntityFrameworkCore.AspNetCore.csproj" />
+    <Project Path="src/Libraries/Synax.EntityFrameworkCore.Mapper/Synax.EntityFrameworkCore.Mapper.csproj" />
+    <Project Path="src/Libraries/Synax.EntityFrameworkCore.Mediator/Synax.EntityFrameworkCore.Mediator.csproj" />
+    <Project Path="src/Libraries/Synax.EntityFrameworkCore.OData.Results/Synax.EntityFrameworkCore.OData.Results.csproj" />
+    <Project Path="src/Libraries/Synax.EntityFrameworkCore.OData/Synax.EntityFrameworkCore.OData.csproj" />
+    <Project Path="src/Libraries/Synax.EntityFrameworkCore.Testing/Synax.EntityFrameworkCore.Testing.csproj" />
+    <Project Path="src/Libraries/Synax.EntityFrameworkCore/Synax.EntityFrameworkCore.csproj" />
+    <Project Path="src/Libraries/Synax.Identity/Synax.Identity.csproj" />
+    <Project Path="src/Libraries/Synax.Mapper/Synax.Mapper.csproj" />
+    <Project Path="src/Libraries/Synax.Mediator/Synax.Mediator.csproj" />
+    <Project Path="src/Libraries/Synax.Modules/Synax.Modules.csproj" />
+    <Project Path="src/Libraries/Synax.Results/Synax.Results.csproj" />
+  </Folder>
+  <Folder Name="/Tests/">
+    <Project Path="tests/Synax.Tests.Common/Synax.Tests.Common.csproj" />
+  </Folder>
+  <Folder Name="/Tests/IntegrationTests/">
+    <Project Path="tests/IntegrationTests/Synax.BookingDemoApp.IntegrationTests/Synax.BookingDemoApp.IntegrationTests.csproj" />
+    <Project Path="tests/IntegrationTests/Synax.EntityFrameworkCore.IntegrationTests/Synax.EntityFrameworkCore.IntegrationTests.csproj" />
+  </Folder>
+  <Folder Name="/Tests/UnitTests/">
+    <Project Path="tests/UnitTests/Synax.BookingDemoApp.UnitTests/Synax.BookingDemoApp.UnitTests.csproj" />
+    <Project Path="tests/UnitTests/Synax.Crud.UnitTests/Synax.Crud.UnitTests.csproj" />
+    <Project Path="tests/UnitTests/Synax.EntityFrameworkCore.AspNetCore.UnitTests/Synax.EntityFrameworkCore.AspNetCore.UnitTests.csproj" />
+    <Project Path="tests/UnitTests/Synax.EntityFrameworkCore.Mediator.UnitTests/Synax.EntityFrameworkCore.Mediator.UnitTests.csproj" />
+    <Project Path="tests/UnitTests/Synax.EntityFrameworkCore.OData.UnitTests/Synax.EntityFrameworkCore.OData.UnitTests.csproj" />
+    <Project Path="tests/UnitTests/Synax.EntityFrameworkCore.Testing.UnitTests/Synax.EntityFrameworkCore.Testing.UnitTests.csproj" />
+    <Project Path="tests/UnitTests/Synax.Mapper.UnitTests/Synax.Mapper.UnitTests.csproj" />
+    <Project Path="tests/UnitTests/Synax.Mediator.UnitTests/Synax.Mediator.UnitTests.csproj" />
+    <Project Path="tests/UnitTests/Synax.Modules.UnitTests/Synax.Modules.UnitTests.csproj" />
+    <Project Path="tests/UnitTests/Synax.Results.UnitTests/Synax.Results.UnitTests.csproj" />
+    <Project Path="tests/UnitTests/Synax.AspNetCore.UnitTests/Synax.AspNetCore.UnitTests.csproj" />
+  </Folder>
+</Solution>

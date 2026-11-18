@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <FrameworkReference Include="Microsoft.AspNetCore.App" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.IdentityModel.JsonWebTokens" Version="8.23.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\Libraries\Synax.AspNetCore\Synax.AspNetCore.csproj" />
+      <ProjectReference Include="..\..\Libraries\Synax.Crud\Synax.Crud.csproj" />
+      <ProjectReference Include="..\..\Libraries\Synax.Mapper\Synax.Mapper.csproj" />
+      <ProjectReference Include="..\..\Libraries\Synax.Mediator\Synax.Mediator.csproj" />
+      <ProjectReference Include="..\..\Libraries\Synax.EntityFrameworkCore.AspNetCore\Synax.EntityFrameworkCore.AspNetCore.csproj" />
+      <ProjectReference Include="..\..\Libraries\Synax.EntityFrameworkCore.Mediator\Synax.EntityFrameworkCore.Mediator.csproj" />
+      <ProjectReference Include="..\Synax.BookingDemoApp.Domain\Synax.BookingDemoApp.Domain.csproj" />
+    </ItemGroup>
+
+</Project>
